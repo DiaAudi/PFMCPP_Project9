@@ -22,7 +22,7 @@ namespace RecursiveExample
     {
         func(5);
         return 0;
-    }
+    } 
 }
 
 /*
@@ -62,6 +62,7 @@ void funcName(T first, Args ... everythingElse)
  7) Then, recursively call VariadicHelper
  
  8) You will need to specialize the Wrapper class template to work with the Point class.
+    I'm expecting to see a separate class definition entirely, like you did with the Numeric<double> in project 4.
  
  9) be sure to forward your variadicHelper function arguments correctly and use Forwarding/R-Value references, as opposed to passing by const-ref or by copy.
  */
